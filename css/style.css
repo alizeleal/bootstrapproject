@@ -1,0 +1,153 @@
+:root{
+
+    --color-beige: #FFFBEB;
+    --color-light-blue: #ECF9FF;
+    --color-light-coral: #FFE7CC;
+    --color-orange-pinkish: #F8CBA6;
+    --color-fonts-text: #b6580c;
+    --color-fonts-titles: #6b3408;
+
+
+}
+
+body{
+    background-color: var(--color-light-coral);
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--color-fonts-text);
+    text-align: center;
+
+
+}
+
+hr {
+    border-style: dotted none none none;
+    border-color: red;
+    width: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-bar-bg{
+
+    background-color: var(--color-orange-pinkish);
+}
+
+#home{
+    padding-top:85px;
+
+}
+#top-name{
+    font-family: 'Twinkle Star', cursive;
+    font-size: 400%;
+    margin-top: 25px;
+    color: var(--color-fonts-titles);
+
+}
+
+#under-top-name{
+    font-size: 200%;
+    font-weight: normal;
+    color: var(--color-fonts-titles);
+}
+
+.inuyasha-logo-en{
+
+    position: absolute;
+    width: 30%;
+    top: 3%;
+    right: 53%;
+
+}
+
+.inuyasha-logo-jp{
+
+    position: absolute;
+    width: 30%;
+    top: 85%;
+    left: 60%;
+
+}
+
+.div-central {
+    width: 500px;
+    height: 450px;
+    position: relative;
+    margin: 0 auto 10px auto;
+}
+
+.kagome-bg{
+    max-width:100%;
+    max-height:100%;
+
+    position: absolute;
+    left: 15%;
+}
+
+.profile-text{
+    display: inline-block;
+    margin-top: 20%;
+    text-align: justify;
+    line-height: 2;
+}
+
+.row{
+    margin: 0;
+}
+
+.inuyasha-logo-wip{
+
+    width: 30%;
+    margin-top: 10%;
+    left: 65%;
+}
+
+.stranger-things-logo{
+    width: 30%;
+    margin-top: 0%;
+    left: 50%;
+}
+.btn_link {
+    background: #6b3408;
+    background-image: -webkit-linear-gradient(top, #6b3408, #724a29);
+    background-image: -moz-linear-gradient(top, #6b3408, #724a29);
+    background-image: -ms-linear-gradient(top, #6b3408, #724a29);
+    background-image: -o-linear-gradient(top, #6b3408, #724a29);
+    background-image: linear-gradient(to bottom, #6b3408, #724a29);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn_link:hover {
+    background: #b6580c;
+    background-image: -webkit-linear-gradient(top, #b6580c, #F8CBA6);
+    background-image: -moz-linear-gradient(top, #b6580c, #F8CBA6);
+    background-image: -ms-linear-gradient(top, #b6580c, #F8CBA6);
+    background-image: -o-linear-gradient(top, #b6580c, #F8CBA6);
+    background-image: linear-gradient(to bottom, #b6580c, #F8CBA6);
+    text-decoration: none;
+}
+
+.btn_link a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.wip-works{
+    background-color: var(--color-orange-pinkish);
+    border-radius: 8px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 5%;
+    padding: 2%;
+
+}
+
