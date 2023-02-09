@@ -97,11 +97,13 @@ hr {
     margin: 0;
 }
 
+
+
 .inuyasha-logo-wip{
 
     width: 30%;
-    margin-top: 10%;
-    left: 65%;
+    margin-top: 0%;
+    left: 85%;
 }
 
 .stranger-things-logo{
@@ -109,7 +111,7 @@ hr {
     margin-top: 0%;
     left: 50%;
 }
-.btn_link {
+.btn {
     background: #6b3408;
     background-image: -webkit-linear-gradient(top, #6b3408, #724a29);
     background-image: -moz-linear-gradient(top, #6b3408, #724a29);
@@ -126,7 +128,7 @@ hr {
     text-decoration: none;
 }
 
-.btn_link:hover {
+.btn:hover {
     background: #b6580c;
     background-image: -webkit-linear-gradient(top, #b6580c, #F8CBA6);
     background-image: -moz-linear-gradient(top, #b6580c, #F8CBA6);
@@ -136,7 +138,7 @@ hr {
     text-decoration: none;
 }
 
-.btn_link a {
+.btna {
     text-decoration: none;
     color: inherit;
 }
@@ -149,5 +151,11 @@ hr {
     margin-bottom: 5%;
     padding: 2%;
 
+}
+
+.work-description{
+
+    position: inherit;
+    height: 80%;
 }
 
