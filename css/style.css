@@ -10,6 +10,12 @@
 
 }
 
+.even-section{
+background-color: var(--color-fonts-titles);
+color: var(--color-beige);
+
+}
+
 body{
     background-color: var(--color-light-coral);
     font-family: 'Ubuntu', sans-serif;
@@ -146,8 +152,8 @@ hr {
 .wip-works{
     background-color: var(--color-orange-pinkish);
     border-radius: 8px;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
     margin-bottom: 5%;
     padding: 2%;
 
@@ -173,4 +179,15 @@ ul{
     padding: 0;
     text-align: justify;
     margin-left: 10%;
+}
+
+.card-header{
+
+    background-color: var(--color-orange-pinkish);
+
+}
+
+.card-footer{
+
+    background-color: var(--color-orange-pinkish);
 }
