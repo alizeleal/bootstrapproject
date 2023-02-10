@@ -191,3 +191,14 @@ ul{
 
     background-color: var(--color-orange-pinkish);
 }
+
+.contact-me{
+    text-align: left;
+
+}
+
+@media (width <= 950px) {
+    .contact-me{
+        text-align: right;
+    }
+}
